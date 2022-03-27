@@ -1,0 +1,187 @@
+.header {
+    border-bottom: 2px solid rgb(216, 213, 213);
+    box-shadow:  5px 3px 3px #ccc;
+    background-color: beige;
+    padding:20px;
+}
+.header img{
+    
+    height: 70px;
+    width: 80px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    
+}
+.header h3{
+    margin-left: 140px;
+    margin-top: -70px;
+    margin-bottom: 15px;
+    
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+   background-color: rgb(226, 224, 224);
+    box-shadow: 5px 5px 5px 5px #ccc;
+    border-radius: 2%;
+    border-color: black;
+    padding: -200px;
+
+}
+
+body{
+    font-family:sans-serif;
+    letter-spacing: 2px;
+}
+
+.inputbox{
+    margin-left: 0px;
+    width: 450px;
+    height: 25px;
+}
+
+.enter{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.uname{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 60px;
+}
+
+.phonenumber{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 60px;
+}
+
+.position{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 60px;
+}
+
+.email{
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    right: 150px;
+    top: 95px;
+}
+
+.code{
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    right: 150px;
+    top: 305px;
+}
+
+.passw{
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    right: 150px;
+    top: 165px;
+}
+
+.repeatpass{
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    right: 150px;
+    top: 235px;
+}
+
+.but{
+    font-family:sans-serif;
+    text-align: center;
+}
+
+.signup{
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+}
+
+input[type=submit]{
+    border: none;
+    color: black;
+    padding: 8px 100px;
+    text-decoration: none;
+    margin: 1px 2px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+footer{
+    position: fixed;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+
+.footer {
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 35px;
+    box-shadow:  3px 3px 3px 5px #ccc;
+    margin-left: 2px; 
+    margin-bottom: 2px; 
+    background-color:beige;
+}
+.footer h3, h4, h5{
+    display: inline-block;
+}
+.footer h4 {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#partnership{
+    margin-left: 25%;
+    margin-right: 100px;
+}
+#questions{
+    margin-left: 5%; 
+    margin-right: 20px;
+}
+.footer a {
+    color: black;
+}

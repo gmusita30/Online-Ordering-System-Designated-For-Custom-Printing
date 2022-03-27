@@ -1,0 +1,347 @@
+ /* Header and Left Side Container */
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    border-bottom: 2px solid black;
+    background-color:beige;
+    box-shadow: 5px 5px gray;
+    margin-top:-20px;
+    padding-top: 10px;
+}
+.header h1 {
+    margin-left: 15px;
+}
+.profile {
+    margin-left: 80px;
+    position: absolute;
+}
+.profile h2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.profile img{
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.tabs {
+    border: 2px solid black;
+    width: 20%;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 20px;
+    background-color:beige;
+    box-shadow:5px 10px gray;
+}
+.tabs ul{
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
+}
+.tabs button {
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 10px 0px 20px;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+#feedClick, #feedClicklink, #orderClick, #orderClicklink, #inventoryClick, #inventoryClicklink, #marketClick, #marketClicklink,
+#usersClick, #usersClicklink, #Back:active, .refresh button:active, #back:active, #refresh:active, #add:active, #apply:active,
+#backs:active {
+    color:#708090;
+    background-color: lightblue;
+}
+
+ /* Feedback - Admin */
+.feedbackNotif h1{
+    margin-left: 370px;
+    margin-top: 50px;
+ 
+}
+#notif  {
+    border: 2px solid black;
+    width: 70%;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 370px;
+    margin-top: 20px;
+    background-color:beige;
+    box-shadow:5px 10px gray;
+}
+.feedbackNotif ul li {
+    display: inline-block;
+    padding: 5px 40px 10px 5px;
+}
+.tabDelivery {
+    margin-left: 320px;
+}
+.tabDelivery ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 350px;
+}
+.tabDelivery button, .tabReturnNext button, .tabDelBack button, .users-button button, .tabBackAdd button,
+.tabBackDelApply button{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid black;
+     background-color:beige;
+    box-shadow:5px 10px gray;
+}
+ /* Feedback - Select Notification */
+ .SelectNotifContainer {
+     border: 2px solid black;
+     position: absolute;
+     margin-left: 370px;
+     padding-left: 20px;
+    padding-right: 20px;
+    background-color:beige;
+    box-shadow:5px 10px gray;
+ }
+ .scroll{
+    height: 415px;
+    overflow: auto;
+}
+.SelectNotifContainer p {
+    display: inline;
+    padding: 50px 450px 10px 0px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    margin-right: 30px;
+}
+#paymentTotal {
+    margin-left: -40px;
+}
+.SelectNotifContainer h4 {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 23px;
+}
+.ShippingMethod {
+    font-size: 22px;
+    margin-bottom: 23px;
+}
+.tabReturnNext {
+    margin-left: 320px;
+    margin-top: 500px;
+}
+.tabReturnNext ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+}
+#Back {
+    margin-right: 925px;
+}
+
+ /* Marketing Requests */
+ .marketingReqs h1{
+    margin-left: 370px;
+    margin-top: 50px;
+}
+.marketingReqs ul li {
+    display: inline-block;
+    padding: 5px 40px 10px 5px;
+}
+#reqs  {
+    border: 2px solid black;
+    width: 70%;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+.infoContainer {
+    border: 2px solid black;
+    width: 70%;
+    margin-left: 370px;
+    margin-top: -25px;
+    padding-right: 40px;
+    border-top: none;
+    padding-top: 10px;
+}
+.infoContainer ul li{
+    list-style: hidden;
+}
+.refresh button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    margin-left: 1375px;
+    margin-top: 370px;
+}
+
+ /* Marketing Requests - View */
+ .viewContainer {
+    border: 2px solid black;
+    width: 73.5%;
+    padding-bottom: 50px;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+.businessPersonalInfo, #aboutBusiness, #attachedImage {
+    margin-left: 20px;  
+}
+#businessName, #BusinessName {
+    margin-right: 500px;
+}
+
+#businessName, #socialMedia, #BusinessName, #address {
+    display: inline-block;
+}
+.businessInfo, .attachedImage {
+    display: inline;
+}
+
+.businessInfo, .attachedImage {
+    width: 300px;
+    border: 2px solid black;
+    padding: 40px 790px 40px 50px;
+    margin:  20px 20px 20px 250px;
+}
+.tabDelBack {
+    margin-top: 50px;
+    margin-left: 1250px;
+}
+#del {
+    margin-right: 60px;
+}
+/*Users */
+.Usercontainer {
+    margin-left: 370px;
+    margin-top: 50px;
+}
+#insideuserscontainer  {
+    border: 2px solid black;
+    width: 70%;
+    font-size: 25px;
+    border-bottom: none;
+    list-style: none;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+.userscontainer ul li {
+    display: inline-block;
+    padding: 5px 40px 10px 5px;
+}
+#username {
+    margin-right: 25px;
+}
+#names, #email {
+    margin-right: 100px;
+}
+.secondinsideusers{
+    border: 2px solid black;
+    width: 72.6%;
+    font-size: 25px;
+    list-style: none;
+    padding-bottom: 375px;
+    margin-left: 370px;
+    margin-top: -26px;
+}
+
+.secondinsideusers ul li{
+    display: inline-block;
+    padding: 5px 40px 10px 5px;
+}
+.users-button{
+    margin-top: 25px;
+    margin-left: 370px;
+    
+}
+.users-button button {
+    margin-top: 30px;
+}
+/*Add Users*/
+.addAdmin {
+    margin-left: 370px;
+}
+.addAdminContainer {
+    border: 2px solid black;
+    width: 1100px;
+    padding-left: 20px;
+    padding-bottom: 165px;
+}
+.addAdminInfo label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.addAdminInfo input{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -25px;
+    display: block;
+}
+.placeImage {
+    width: 50px;
+    position: absolute;
+    border: 2px solid black;
+    padding: 40px 50px 80px 50px;
+    margin:  -260px 0px 0px 800px;
+}
+.photo h3 {
+    position: absolute;
+    padding: 40px 50px 80px 50px;
+    margin:  -150px 0px 0px 780px;
+    text-decoration: underline;
+}
+.tabBackAdd {
+    margin-left: 370px;
+    margin-top: 40px;
+}
+#back {
+    margin-right: 955px;
+}
+/*Edit Users*/
+.editAdmin {
+    margin-left: 370px;
+}
+.editAdminContainer {
+    border: 2px solid black;
+    width: 1100px;
+    padding-left: 20px;
+    padding-bottom: 120px;
+}
+.editAdminInfo label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.editAdminInfo input{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -25px;
+    display: block;
+}
+.tabBackDelApply {
+    margin-left: 370px;
+    margin-top: 50px;
+}
+#backs {
+    margin-right: 790px;
+}
+#dele {
+    margin-right: 40px;
+}

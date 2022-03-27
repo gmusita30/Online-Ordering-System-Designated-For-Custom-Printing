@@ -1,0 +1,365 @@
+.header {
+    border-bottom: 2px solid black;
+    background-color:beige;
+    box-shadow: 5px 5px gray;
+    margin-top:-20px;
+    padding-top: 10px;
+}
+.profile {
+    margin-left: 80px;
+    position: absolute;
+}
+.profile h2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.profile img{
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.tabs {
+    border: 2px solid black;
+    width: 20%;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 20px;
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+	
+}
+.tabs ul{
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
+}
+.tabs button {
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 10px 0px 20px;
+}
+.feedbackNotif h1{
+    margin-left: 370px;
+    margin-top: 50px;
+}
+#notif  {
+    border: 2px solid black;
+    width: 70%;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 370px;
+    margin-top: 20px;
+   
+}
+.feedbackNotif ul li {
+    display: inline-block;
+    padding: 10px 45px 15px 10px;
+}
+.tabDelivery {
+    margin-left: 320px;
+}
+.tabDelivery ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 420px;
+}
+.tabDelivery button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+#feedClick, #feedClicklink, #orderClick, #orderClicklink, #inventoryClick, #inventoryClicklink, #marketClick, #marketClicklink,
+#usersClick, #usersClicklink, #btnAdd:active, #btnBack:active, #btnAddItem:active, #btnRefresh:active, #btnUpdate:active{
+    color:#708090;
+    background-color: lightblue;
+}
+#btnBack {
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+}
+.inventTitle h1{
+    margin-left: 370px;
+    margin-top: 50px;
+}
+.inventTitle2 h1{
+    margin-left: 370px;
+    margin-top: 50px;
+}
+.img2{
+    height: 150px;
+}
+.img3 {
+    height: 150px;
+    margin-left: 1280px;
+    position: absolute;
+}
+.addimg{
+    margin-left: 1300px;
+    font-size: 20px;
+    font-weight: normal;
+    position: absolute;
+    top: 325px;
+}
+#invTitle  {
+    border: 2px solid black;
+    width: 75%;
+    font-size: 25px;
+    margin-left: 370px;
+    text-align: left;
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+}
+#invTitle th{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.invTitle th{
+    border-bottom: 2px solid black;
+}
+
+#invTitle td{
+    position: absolute;
+    left: 600px;
+    padding-top: 10px;
+}
+#invTitle2  {
+    border: 2px solid black;
+    width: 100%;
+    font-size: 25px;
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+}
+.invTitle2 th{
+    border-bottom: 2px solid black;
+}
+.invStock td {
+    text-align: center;
+}
+.tabUpdate, .tabAdd{
+    margin-left: 330px;
+}
+
+.tabBack{
+    margin-left: 330px;
+    margin-top: 0px;
+    position:absolute;
+}
+#scroll {
+    height: 430px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 1500px;
+}
+
+.tabAddVar{
+    margin-left: 459px;
+    margin-top: 6px;
+    position:absolute;
+}
+
+.tabAddRefresh {
+    margin-left: 310px;
+}
+.tabAddRefresh ul li, .tabAdd ul li, .tabUpdate{
+    list-style: none;
+    display: inline-block;
+}
+.tabUpdate button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+   
+}
+.tabAddRefresh button, .tabAdd button, .tabBack button, .tabAddVar button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+   background-color:beige;
+    box-shadow: 5px 10px gray;
+}
+#btnRefresh{
+    margin-left: 430px;
+}
+
+.inventAddItem h1{
+    margin-left: 370px;
+    margin-top: 50px;
+   
+}
+
+.inventAddItem ul li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#invAddItem  {
+    border: 2px solid black;
+    width: 73%;
+    font-size: 25px;
+    margin-left: 370px;
+    margin-top: 20px;
+    padding: 20px 20px 20px 10px;
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+    
+}
+textarea {
+    font-size: 20px;
+}
+#invAddItemProductName  {
+    width: 70%;
+    border: 1px solid black;
+    font-size: 25px;
+    list-style: none;
+    margin-left: 200px;
+   
+}
+#btnAddItem {
+    font-weight: bold;
+}
+
+#btnAdd{
+    margin-left: 925px;
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+    font-weight: bold;
+}
+#btnAddVar{
+    margin-left: 925px;
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#btnUpdateVariation{
+    margin-left: 250px;
+    background-color: beige;
+    font-weight: bold;
+    margin-right: 50px;
+    box-shadow: 5px 10px gray;
+}
+#btnUpdate{
+    margin-left: 260px;
+    background-color: lightgreen;
+    font-weight: bold;
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+}
+
+.tabViewProduct {
+    margin-left: 330px;
+	
+}
+.tabViewProduct ul li{
+    list-style: none;
+    display: inline-block;
+}
+.tabViewProduct button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+}
+
+#btnRem{
+    margin-left: 160px;
+    font-weight: bold;
+}
+#btnUp{
+    margin-left: 170px;
+    font-weight: bold;
+}
+#btnRefresh2{
+    margin-left: 175px;
+}
+.updatestocks-container h1{
+    margin-left: 370px;
+    margin-top: 50px;
+  
+}
+.updatestocks-container ul li{
+    display: inline-block;
+    margin-top: 10px;
+}
+#stocksinside{
+    border: 2px solid black;
+    width: 73%;
+    font-size: 20px;
+    margin-left: 370px;
+    padding: 20px 20px 20px 10px;
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+}
+
+.error {
+    background-color: #eb2b27;
+    color: white;
+    position: absolute;
+    margin-top: -10px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    width: 17%;
+    margin-left: 800px;
+    text-align: center;
+}
+
+.success {
+    background-color: #388d55;
+    color: white;
+    position: absolute;
+    margin-top: -10px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: 700px;
+    text-align: center;
+}
+.image-preview{
+    margin-left: 100px;
+    position: absolute;
+    top: 335px;
+    left: 1180px;
+ }
+
+ .image-preview__image{
+   margin-left: 50%;
+     display: none;
+     width: 100%;
+ }
+
+#product-scroller{
+    overflow: auto;
+    position: relative;
+    height: 360px;
+    margin-left: 350px;
+    margin-right: 60px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0;
+}
+.removalVariation th, .variableVariation td,.variableVariation th {
+    border: 2px solid black;
+    text-align: center;
+}
+.removalVariation th{
+    background-color: lightblue;
+}

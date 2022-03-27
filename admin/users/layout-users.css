@@ -1,0 +1,183 @@
+.header {
+    border-bottom: 2px solid black;
+    background-color:beige;
+    box-shadow: 5px 5px gray;
+    margin-top:-20px;
+    padding-top: 10px;
+}
+.profile {
+    margin-left: 80px;
+    position: absolute;
+}
+.profile h2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.profile img{
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.tabs {
+    border: 2px solid black;
+    width: 20%;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 20px;
+    background-color:beige;
+    box-shadow: 5px 10px gray;
+}
+.tabs ul{
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
+}
+.tabs button {
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 10px 0px 20px;
+}
+.feedbackNotif h1{
+    margin-left: 370px;
+    margin-top: 50px;
+}
+#notif  {
+    border: 2px solid black;
+    width: 70%;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+.feedbackNotif ul li {
+    display: inline-block;
+    padding: 5px 40px 10px 5px;
+}
+.tabDelivery {
+    margin-left: 320px;
+}
+.tabDelivery ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 420px;
+}
+.tabDelivery button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+#feedClick, #feedClicklink, #orderClick, #orderClicklink, #inventoryClick, #inventoryClicklink, #marketClick, #marketClicklink,
+#usersClick, #usersClicklink{
+    color:#708090;
+    background-color: lightblue;
+}
+
+.user{    
+    width: 74%;
+    height: 80%;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 380px;
+}
+.user-contents{
+    border: 2px solid black;
+    height: 70%;
+    width: 95%;
+    position: absolute;
+}
+
+.buttons{
+    width: 100%;
+    position: absolute;
+    margin-top: 37%;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.column {
+    float: left;
+    margin-bottom: 2px solid black;
+}
+
+.id {
+    width: 10%;
+}
+
+.username {
+    width: 15%;
+}
+    
+.name {
+    width: 20%;
+}
+
+.email {
+    width: 20%;
+}
+
+.phonenum{
+    width: 20%;
+}
+
+.edit{
+    width: 15%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.user-db{
+    height:85%;
+    overflow:auto;
+}
+
+.form{
+    margin-left: 2%;    
+}
+
+.fill{
+    margin-left: 2%;
+}
+
+.title {
+    height: 17px;
+    border: 0;
+    width: calc(30% - 2px);
+    margin-left:0%;
+    box-shadow: -8px 10px 0px -7px #ebebeb, 8px 10px 0px -7px #ebebeb;
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+  
+#left {
+    width: 14%;
+    float:left;
+}
+#right {
+    width: 50%;
+    float: left; /* add this */
+}
+    
